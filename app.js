@@ -9,6 +9,6 @@ var UIController = (function() {
 })();
 
 // Global app controller
-var controller = (function() {
+var controller = (function(budgetCtrl, UICtrl) {
   //
-})();
+})(budgetController, UIController);
