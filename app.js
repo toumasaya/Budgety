@@ -5,7 +5,13 @@ var budgetController = (function() {
 
 // UI controller
 var UIController = (function() {
-  //
+  return {
+    getInput: function() {
+      var type = document.querySelector(".add__type").value;
+      var description = document.querySelector(".add__description").value;
+      var value = document.querySelector(".add__value");
+    }
+  };
 })();
 
 // Global app controller
